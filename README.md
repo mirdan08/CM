@@ -4,7 +4,7 @@ A Computational Mathematics project regarding the implementation of extreme lear
 ## project track
 
 The model is the so-called __extreme learning__ model, i.e., a neural network with one hidden layer,
-$y=W_21sigma(W_1x)$ where: 
+$y=W_2\sigma(W_1x)$ where: 
 - the weight matrix for the hidden layer $W_1$ is a fixed random matrix
 - $\sigma(\dots)$ is an elementwise activation function of your choice
 - the output weight matrix $W_2$ is chosen by solving a linear least-squares problem (with $L_2$ regularization).
