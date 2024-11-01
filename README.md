@@ -12,5 +12,3 @@ $y=W_21sigma(W_1x)$ where:
 (A1) is the solution of this linear least-squares problem via thin QR factorization. The implementation must scale linearly with the largest dimension of the problem.
 
 (A2) is an algorithm of the class of Conjugate Gradient methods. The dimension of the hidden layers also varies and accuracy and computational time behaviour are studied with different configurations.
-
-In addition, for (A2), you are expected to vary the dimension of the hidden layer and study how accuracy and computational time vary based on this choice.
